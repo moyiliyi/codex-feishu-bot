@@ -127,7 +127,7 @@ im.message.receive_v1
 卡片回传交互
 card.action.trigger
 ```
-![](./pics/APPCallback.png)
+![](./pics/APPcallback.png)
 
 
 ## 5. 机器人操作快捷方式
