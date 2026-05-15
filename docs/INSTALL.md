@@ -131,7 +131,7 @@ im.message.receive_v1
 Card action callback
 card.action.trigger
 ```
-![](./pics/APPCallback.png)
+![](./pics/APPcallback.png)
 
 ## 5. Bot Command Shortcuts
 
