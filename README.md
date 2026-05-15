@@ -17,12 +17,18 @@ The official Codex mobile app validates demand for mobile-assisted coding workfl
 
 This repository focuses on a different path:
 
-- Works with **Codex CLI + App Server bridge flow**
 - Works on **All Platform**. (Tested with Linux and macOS now)
+- Works with **Codex CLI + App Server bridge flow**
 - No strict runtime device binding in project design
 - Feishu as the control surface for approvals and next-turn prompts
 
+## Use cases
 
+- Handle Codex approvals from your phone through Feishu
+- Get notified when Codex finishes a turn and continue immediately
+- Operate coding sessions when you are away from the laptop UI
+- Build a team-internal notification workflow around Codex threads
+- 
 ## Key features
 
 - Approval push: forwards approval requests to Feishu interactive cards.
@@ -74,19 +80,9 @@ End-to-end flow:
 └── INSTALL.zh-CN.md               # 中文安装文档
 ```
 
-## Use cases
-
-- Handle Codex approvals from your phone through Feishu
-- Get notified when Codex finishes a turn and continue immediately
-- Operate coding sessions when you are away from the laptop UI
-- Build a team-internal notification workflow around Codex threads
-
 ## Current scope
 
 - Focused on Feishu/Lark workflow
 - Uses WebSocket + JSON-RPC bridge semantics from Codex App Server
 - Not intended as a replacement for official products; it is an open integration layer
 
-## License
-
-Add your preferred open-source license (for example MIT) before public release.
