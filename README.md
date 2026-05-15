@@ -8,7 +8,7 @@ This project is designed for developers who want a "Codex mobile control" experi
 
 ## Installation
 
-- Setup guide: [INSTALL.md](./INSTALL.md)
+- Setup guide: [INSTALL.md](./docs/INSTALL.md)
 
 ## Why this exists
 
@@ -28,7 +28,7 @@ This repository focuses on a different path:
 - Get notified when Codex finishes a turn and continue immediately
 - Operate coding sessions when you are away from the laptop UI
 - Build a team-internal notification workflow around Codex threads
-- 
+
 ## Key features
 
 - Approval push: forwards approval requests to Feishu interactive cards.
@@ -40,7 +40,7 @@ This repository focuses on a different path:
 
 ## Comparison: official mobile app vs this project
 
-| Capability | Official Codex Mobile App (by 26.05.15)| Codex Feishu Relay |
+| Capability | Official Codex Mobile App (by 26.05.15)| Codex Feishu Bot |
 | --- | --- | --- |
 | Main interaction surface | Official mobile app | Feishu/Lark cards + chat |
 | Linux/macOS deployment | Depends on official app flow | Yes |

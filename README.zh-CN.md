@@ -7,7 +7,7 @@
 
 ## 安装
 
- - 安装指南 [INSTALL.zh-CN.md](./INSTALL.zh-CN.md)
+ - 安装指南 [INSTALL.zh-CN.md](./docs/INSTALL.zh-CN.md)
 
 ## 这个项目解决什么问题
 
@@ -45,7 +45,7 @@
 > - 需要手机端与电脑端登录同一账号（对中转/代运维场景不友好）
 > - 手机端本身也需要科学上网
 
-本项目（Codex Feishu Relay）的特点：
+本项目（Codex Feishu Bot）的特点：
 
 - 服务器可部署在 Linux 或 macOS
 - 可以直接结合 Codex CLI 的工作流
